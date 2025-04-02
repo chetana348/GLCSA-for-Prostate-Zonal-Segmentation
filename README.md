@@ -141,3 +141,11 @@ If you use this work in your research, please cite:
   doi       = {10.1007/s10278-025-01401-0},
   url       = {https://doi.org/10.1007/s10278-025-01401-0}
 }
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+```
