@@ -18,6 +18,34 @@ We propose a novel deep learning architecture that incorporates a multi-attentio
 
 - Pseudo-3D multi-slice input strategy for contextual learning
 - Hybrid channel-spatial attention modules for enhanced feature representation
+- State of art performance on peripheral zone segmentation
 - Superior performance on multi-center prostate MRI datasets
 - Modular and extensible PyTorch-based implementation
+
+---
+
+## 🧾 Dataset Preparation
+
+This implementation is designed to work with batched prostate MRI datasets stored as 2D volumes. Before training or inference, images should be preprocessed as follows:
+
+### ✅ Preprocessing Steps
+
+1. **Center Cropping**:  
+   All images are center-cropped to focus on the prostate region.
+
+2. **Resizing**:  
+   Cropped images are reshaped to a fixed spatial resolution of **128 × 128** pixels.
+
+3. **Normalization**:  
+   Image intensities are normalized to the range **[0, 255]** for consistency across different centers and scanners.
+
+4. **Batch Size Support**:  
+   The current implementation supports batch sizes of **2**, **4**, **16**, and **20**. Choose based on available GPU memory.
+
+5. **Multi-class Segmentation**:
+   Expects ground truth to have 3 classes (0=Background, 1=Transitional Zone, 2=Peripheral Zone).
+
+> ⚠️ Make sure to adjust your DataLoader and augmentation settings to match these preprocessing steps.
+
+
 
