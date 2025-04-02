@@ -122,7 +122,7 @@ Please open an issue on this repository with your request.
 > 📬 We’re happy to share the resources for academic, research, and non-commercial use.
 
 ---
-## 📄 2D Approach (SPIE 2025)
+## 2D Approach (SPIE 2025)
 
 Our 2D model variant—implemented in the [`2D/`](#1-2d) folder—achieves **competitive performance** and **outperforms several U-Net-based baselines** on prostate zonal segmentation tasks.
 
