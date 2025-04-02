@@ -90,7 +90,7 @@ This project is implemented in **Python 3.9+** and built on **PyTorch**. Below a
 
 The repository contains two main implementation variants:
 
-### 1. [`2D/`](#📄-2d-approach-spie-2025)
+### 1. [`2D/`](#2d-approach-spie-2025)
 - Contains the **baseline model** implemented without pseudo-3D enhancements.
 - Useful for benchmarking and ablation studies against 2.5D models.
 
