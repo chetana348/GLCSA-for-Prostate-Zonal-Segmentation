@@ -86,6 +86,28 @@ This project is implemented in **Python 3.9+** and built on **PyTorch**. Below a
 
 ---
 
+## 📁 Repository Structure
+
+The repository contains two main implementation variants:
+
+### 1. [`2D/`](#📄-2d-approach-spie-2025)
+- Contains the **baseline model** implemented without pseudo-3D enhancements.
+- Useful for benchmarking and ablation studies against 2.5D models.
+
+### 2. `Pseudo_3D/`
+- Contains the **enhanced version** with pseudo-3D (2.5D) features using multi-slice context.
+- Includes two main variants of the GLCSA (Global-Local Channel-Spatial Attention) module:
+  
+  - `GLCSA_batched.py`:  
+    Batch-wise implementation that supports multiple inputs at once, but is **not memory efficient** on limited GPUs.
+
+  - `GLCSA_ps.py`:  
+    Optimized version with improved **memory efficiency** and **faster performance** for large-scale inference and training.
+
+> 📌 Choose the appropriate version depending on your hardware capabilities and memory constraints.
+
+---
+
 ## 🧠 Model Weights & Training Scripts
 
 The full training pipeline and pretrained model weights are **available upon request**.
@@ -100,6 +122,11 @@ Please open an issue on this repository with your request.
 > 📬 We’re happy to share the resources for academic, research, and non-commercial use.
 
 ---
+## 📄 2D Approach (SPIE 2025)
+
+Our 2D model variant—implemented in the [`2D/`](#1-2d) folder—achieves **competitive performance** and **outperforms several U-Net-based baselines** on prostate zonal segmentation tasks.
+
+📢 A detailed description and evaluation of this model will be available in our upcoming publication in **SPIE Medical Imaging Proceedings 2025**. *(Coming soon!)*
 
 ## 📝 Citation
 
