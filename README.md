@@ -86,3 +86,31 @@ This project is implemented in **Python 3.9+** and built on **PyTorch**. Below a
 
 ---
 
+## 🧠 Model Weights & Training Scripts
+
+The full training pipeline and pretrained model weights are **available upon request**.
+
+If you're interested in:
+
+- Accessing pretrained weights for evaluation or fine-tuning
+- Running full training from scratch with detailed scripts and configuration files
+
+Please open an issue on this repository with your request.
+
+> 📬 We’re happy to share the resources for academic, research, and non-commercial use.
+
+---
+
+## 📝 Citation
+
+If you use this work in your research, please cite:
+
+```bibtex
+@article{krishnan2025multiattention,
+  title     = {Multi-attention Mechanism for Enhanced Pseudo-3D Prostate Zonal Segmentation},
+  author    = {Krishnan, C. and Onuoha, E. and Hung, A. and others},
+  journal   = {Journal of Digital Imaging. Inform. Med.},
+  year      = {2025},
+  doi       = {10.1007/s10278-025-01401-0},
+  url       = {https://doi.org/10.1007/s10278-025-01401-0}
+}
