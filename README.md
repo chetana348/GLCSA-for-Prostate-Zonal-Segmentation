@@ -47,5 +47,42 @@ This implementation is designed to work with batched prostate MRI datasets store
 
 > ⚠️ Make sure to adjust your DataLoader and augmentation settings to match these preprocessing steps.
 
+---
 
+## 📚 Datasets Used
+
+The models in this repository have been **trained and evaluated** on the following datasets:
+
+- **[ProstateX](https://www.cancerimagingarchive.net/collection/prostatex/)**:  
+  A publicly available prostate MRI dataset containing T2-weighted images with zonal and lesion annotations.
+
+- **Proprietary Clinical Datasets**:  
+  Additional internal datasets from collaborating institutions were used to validate model generalizability across different acquisition protocols and scanner vendors.
+
+> 🛡️ Due to data sharing restrictions, the proprietary datasets cannot be released. However, the model generalizes well to other prostate MRI datasets following the same preprocessing pipeline.
+
+---
+
+## 📦 Requirements
+
+This project is implemented in **Python 3.9+** and built on **PyTorch**. Below are the main dependencies required to run the code:
+
+### 🐍 Python Dependencies
+
+- `torch >= 1.10`
+- `torchvision >= 0.11`
+- `numpy`
+- `opencv-python`
+- `scikit-image`
+- `matplotlib`
+- `tqdm`
+- `pydicom`
+- `SimpleITK`
+- `scipy`
+- `albumentations`
+- `nibabel` (if working with NIfTI files)
+- `pandas`
+- `pyyaml`
+
+---
 
