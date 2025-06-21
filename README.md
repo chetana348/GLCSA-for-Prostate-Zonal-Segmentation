@@ -126,7 +126,15 @@ Please open an issue on this repository with your request.
 
 Our 2D model variant—implemented in the [`2D/`](#1-2d) folder—achieves **competitive performance** and **outperforms several U-Net-based baselines** on prostate zonal segmentation tasks.
 
-📢 A detailed description and evaluation of this model will be available in our upcoming publication in **SPIE Medical Imaging Proceedings 2025**. *(Coming soon!)*
+#### ✅ Key Highlights
+- Operates on axial 2D slices from volumetric prostate MRI scans.
+- Outperforms several U-Net-based baselines in terms of Dice Similarity Coefficient (DSC) and Mean Surface Distance (MSD).
+- Simple and modular design, making it easy to adapt to other medical imaging segmentation tasks.
+
+#### 📖 Publication
+A full technical description, model architecture, and evaluation metrics are available in our peer-reviewed paper:
+
+🔗 [Read the paper here](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13406/134062F/A-pseudo-3D-multi-attention-mechanism-for-prostate-zonal-segmentation/10.1117/12.3047318.short)
 
 ## 📝 Citation
 
